@@ -128,7 +128,7 @@ class StatsScreen(Screen):
         self.manager.get_screen('login').nick_input.text = ""
         self.manager.transition = SlideTransition(direction='right')
         self.manager.current = 'login'
-m
+
 class WintrixFaceitApp(App):
     def build(self):
         Window.clearcolor = (0.06, 0.06, 0.06, 1)
