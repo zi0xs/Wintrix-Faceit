@@ -6,8 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build with Buildozer
-        uses: ArtemGovorov/buildozer-action@v1
+        uses: artemgovorov/buildozer-action@v1
         with:
           repository_root: .
           buildozer_version: stable
-
